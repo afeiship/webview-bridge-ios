@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+target 'JSBridgeProject' do
+
+pod 'WebViewJavascriptBridge', '~> 6.0'
+end
+
