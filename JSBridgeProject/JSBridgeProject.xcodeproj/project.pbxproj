@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		0F0E5FAF20F6F67F00BB6574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E5FAE20F6F67F00BB6574 /* AppDelegate.m */; };
 		0F0E5FB220F6F67F00BB6574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E5FB120F6F67F00BB6574 /* ViewController.m */; };
-		0F0E5FB520F6F67F00BB6574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0E5FB320F6F67F00BB6574 /* Main.storyboard */; };
 		0F0E5FB720F6F68100BB6574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F0E5FB620F6F68100BB6574 /* Assets.xcassets */; };
 		0F0E5FBA20F6F68100BB6574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0E5FB820F6F68100BB6574 /* LaunchScreen.storyboard */; };
 		0F0E5FBD20F6F68100BB6574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E5FBC20F6F68100BB6574 /* main.m */; };
+		0F0E5FC420F701DF00BB6574 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0E5FC320F701DF00BB6574 /* index.html */; };
 		58FCF103931FC6EC0F4E4355 /* libPods-JSBridgeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7241EC32BD5467BEB3531ED5 /* libPods-JSBridgeProject.a */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +22,11 @@
 		0F0E5FAE20F6F67F00BB6574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0F0E5FB020F6F67F00BB6574 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F0E5FB120F6F67F00BB6574 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0F0E5FB420F6F67F00BB6574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F0E5FB620F6F68100BB6574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F0E5FB920F6F68100BB6574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F0E5FBB20F6F68100BB6574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F0E5FBC20F6F68100BB6574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F0E5FC320F701DF00BB6574 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		4903389A3F188EB28B137FBB /* Pods-JSBridgeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBridgeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSBridgeProject/Pods-JSBridgeProject.release.xcconfig"; sourceTree = "<group>"; };
 		7241EC32BD5467BEB3531ED5 /* libPods-JSBridgeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSBridgeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1C3ED5F36FC8409D71BF6B4 /* Pods-JSBridgeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSBridgeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSBridgeProject/Pods-JSBridgeProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 				0F0E5FAE20F6F67F00BB6574 /* AppDelegate.m */,
 				0F0E5FB020F6F67F00BB6574 /* ViewController.h */,
 				0F0E5FB120F6F67F00BB6574 /* ViewController.m */,
-				0F0E5FB320F6F67F00BB6574 /* Main.storyboard */,
 				0F0E5FB620F6F68100BB6574 /* Assets.xcassets */,
+				0F0E5FC320F701DF00BB6574 /* index.html */,
 				0F0E5FB820F6F68100BB6574 /* LaunchScreen.storyboard */,
 				0F0E5FBB20F6F68100BB6574 /* Info.plist */,
 				0F0E5FBC20F6F68100BB6574 /* main.m */,
@@ -153,9 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0E5FC420F701DF00BB6574 /* index.html in Resources */,
 				0F0E5FBA20F6F68100BB6574 /* LaunchScreen.storyboard in Resources */,
 				0F0E5FB720F6F68100BB6574 /* Assets.xcassets in Resources */,
-				0F0E5FB520F6F67F00BB6574 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,14 +196,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0F0E5FB320F6F67F00BB6574 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F0E5FB420F6F67F00BB6574 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F0E5FB820F6F68100BB6574 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -334,7 +326,10 @@
 				DEVELOPMENT_TEAM = J9S77L85H2;
 				INFOPLIST_FILE = JSBridgeProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.treasurevision.auction.JSBridgeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -350,7 +345,10 @@
 				DEVELOPMENT_TEAM = J9S77L85H2;
 				INFOPLIST_FILE = JSBridgeProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.treasurevision.auction.JSBridgeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
